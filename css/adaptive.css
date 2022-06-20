@@ -25,6 +25,7 @@
     .calc{
         max-width:80%;
         margin: 0px 40px;
+        max-height:80%;
     }
     .calc__btn{
       max-width: 70px;
