@@ -1,4 +1,4 @@
-@import url(adaptive.css);
+
 
 *{
     box-sizing: border-box;
@@ -75,4 +75,40 @@ body{
     background-color: rgb(76, 129, 129);
     color: #fff;
     grid-column: 2/-1;
+}
+
+/*Large devices, Wide Screens */
+@media only screen and (max-width:1200px){
+
+}
+
+/* Medium devices, Desktop */
+@media only screen and (max-width:992px){
+    
+}
+
+/* Small devices, tablet */
+@media only screen and (max-width: 768px){
+
+}
+
+/*Extra small devices, Phones*/
+@media only screen and (max-width: 480px){
+
+}
+
+/*Custom, Iphone, Retina*/
+@media only screen and (max-width: 420px){
+    .calc{
+        width:80%;
+    }
+    .calc__btn{
+      width: 60px;
+      max-height: 70px;
+      font-size: 12px;
+      padding: 5px;
+    }
+    .calc__btn_equal{
+        min-width: 170px;;
+    }
 }
