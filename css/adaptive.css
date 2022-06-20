@@ -19,7 +19,7 @@
 }
 
 /*Custom, Iphone, Retina*/
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 420px){
     .calc{
         min-width:90%;
     }
