@@ -21,7 +21,7 @@
 /*Custom, Iphone, Retina*/
 @media only screen and (max-width: 420px){
     .calc{
-        width:89%;
+        max-width:90%;
     }
     .calc__btn{
       max-width: 70px;
